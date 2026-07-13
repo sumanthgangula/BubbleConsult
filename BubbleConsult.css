@@ -458,16 +458,20 @@ h6 {
     align-items: center;
 }
 
-/* ============ BRANDS SECTION (CARD 2) ============ */
-.brands-section {
-    background: var(--white);
-    padding: 30px 0;
+/* ============ BRANDS STRIP (BETWEEN CARDS) ============ */
+.brands-strip {
+    background: transparent;
+    padding: 24px 0;
+    border-top: 2px solid var(--gray-800);
+    border-bottom: 2px solid var(--gray-800);
+    margin: 0;
 }
 
 .brands-wrapper {
     display: flex;
     align-items: center;
     gap: 40px;
+    padding: 0 10px;
 }
 
 .brands-label {
@@ -1625,9 +1629,3 @@ h6 {
         flex-direction: column;
     }
 }
-
- .hero-image {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
